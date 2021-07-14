@@ -1,6 +1,6 @@
 {
   "name": "esprojection-testing-framework",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESProjectionTestingFramework",
   "main": "app.js",
   "author": {
