@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ESProjectionTestingFramework", "ESProjectionTestingFramework.njsproj", "{40F2B7D0-1354-4A24-B93C-78457B4534A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F2B7D0-1354-4A24-B93C-78457B4534A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F2B7D0-1354-4A24-B93C-78457B4534A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F2B7D0-1354-4A24-B93C-78457B4534A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F2B7D0-1354-4A24-B93C-78457B4534A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1837C4C-1F2A-4716-BD4E-CA9B478FE3D1}
+	EndGlobalSection
+EndGlobal
