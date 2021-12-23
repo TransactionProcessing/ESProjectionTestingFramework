@@ -27,6 +27,5 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
+      - run: npm set //www.myget.org/F/transactionprocessingnpm/npm/:_authToken ${{secrets.MYGET_APIKEY}}
       - run: npm publish --registry https://www.myget.org/F/transactionprocessingnpm/npm/
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.MYGET_APIKEY}}
