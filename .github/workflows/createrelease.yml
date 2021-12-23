@@ -26,8 +26,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-          registry-url: https://www.myget.org/F/transactionprocessingnpm/npm/
       - run: npm ci
-      - run: npm publish
+      - run: npm publish --registry https://www.myget.org/F/transactionprocessingnpm/npm/
         env:
           NODE_AUTH_TOKEN: ${{secrets.MYGET_APIKEY}}
