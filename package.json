@@ -1,5 +1,5 @@
 {
-  "name": "esprojection-testing-framework",
+  "name": "@transactionprocessing/esprojection-testing-framework",
   "version": "1.0.1",
   "description": "ESProjectionTestingFramework",
   "main": "app.js",
