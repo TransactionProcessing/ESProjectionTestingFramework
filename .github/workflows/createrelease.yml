@@ -27,5 +27,5 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
-      - run: npm set //www.myget.org/F/transactionprocessingnpm/npm/:_authToken ${{secrets.MYGET_APIKEY}}
-      - run: npm publish --registry https://www.myget.org/F/transactionprocessingnpm/npm/
+      - run: npm set ${{secrets.PRIVATEFEED_NPMURL}}:_authToken ${{secrets.PRIVATEFEED_APIKEY}}
+      - run: npm publish --registry ${{secrets.PRIVATEFEED_NPMURL}}
